@@ -1,0 +1,86 @@
+*{
+    margin-left: 0;
+    padding: 0;
+    font-family: "Comic Sans MS";   
+}
+body{
+    margin: 20px;
+    padding: 20px;
+}
+.container{
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    background-color: beige;
+}
+
+#titulo{
+    color: green;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 5px;
+    margin: -6px;
+    padding: 5px;
+}
+
+#usuario{
+    text-align: right;
+    margin-right: 2px;
+
+}
+ input#usuario{
+  float: right;
+  margin-right: 2px;
+  text-align: left;
+    
+}
+#atendente{
+    text-align: left;
+    margin-left: 2px;
+
+}
+input#atendente{
+    float: left;
+    margin-left: 2px;
+      
+  }
+fieldset{
+    border-width: 1px;
+    background-color: rgb(146, 207, 90);
+    margin-top: 12px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#areadetexto{
+    display: flex;
+    margin-top: 6px;
+    margin-right: 2px;
+}
+
+#areadetexto textarea{
+    flex: 1 ;
+    border: 1px solid black;
+}
+
+.btn{
+    color: green;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+    margin-left: 6px;
+}
+
+#textinho1{
+    border: 1px black solid;
+    margin-right: 60%;
+    background-color: white;
+    
+}
+
+#textinho2{
+    border: 1px black solid;
+    margin-left: 60%;
+    background-color: white;
+}
